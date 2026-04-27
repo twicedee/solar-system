@@ -1,18 +1,31 @@
-# React + Vite
+# 🌌 Solar System 3D Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive 3D visualization of our solar system built with React Three Fiber. Explore the planets, control their orbit animation, and learn fascinating facts about each celestial body through detailed informational modals.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **3D Interactive Visualization** - Realistic 3D planets with textures orbiting the Sun
+- **Orbit Animation** - Planets rotate around the Sun at varying speeds based on their real orbital periods
+- **Animation Controls** - Pause and resume the orbital motion with a single button
+- **Planet Information** - Click any planet to open a detailed modal with:
+  - Physical characteristics (diameter, mass, temperature)
+  - Orbital data (distance from Sun, orbital period)
+  - Atmospheric composition
+  - Interesting fun facts
+- **Camera Controls** - Pan, rotate, and zoom to explore the solar system from any angle
+- **Starfield Background** - Immersive star background created with particle system
+- **Responsive Design** - Modal is fully responsive and works on all device sizes
 
-## React Compiler
+## 🚀 Tech Stack
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- **React** - UI framework
+- **Three.js / @react-three/fiber** - 3D rendering
+- **@react-three/drei** - Three.js helpers and utilities
+- **CSS3** - Modal styling and animations
 
-Note: This will impact Vite dev & build performances.
+## 📦 Installation
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/solar-system-3d-explorer.git
+cd solar-system-3d-explorer
